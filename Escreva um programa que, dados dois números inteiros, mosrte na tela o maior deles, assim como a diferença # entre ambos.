@@ -1,0 +1,12 @@
+# 6 - Escreva um programa que, dados dois números inteiros, mosrte na tela o maior deles, assim como a diferença
+# entre ambos.
+
+n1 = int(input('Informe o primeiro número: '))
+n2 = int(input('Informe o segundo número: '))
+
+if n1 > n2:
+    d = n1 - n2
+    print(f'O maior número é {n1}, e a diferença entre eles é {d}')
+else:
+    d = n2 - n1
+    print(f'O maior número é {n2}, e a diferença entre eles é {d}')
